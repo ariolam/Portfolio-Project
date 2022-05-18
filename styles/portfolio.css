@@ -44,8 +44,7 @@ p {
   font-size: 36px;
   opacity: 100%;
 }
-.contact-btn,
-.about-btn {
+.main-btn {
   font-family: var(--default-font-family);
   font-size: 18px;
   background-color: var(--primary-color);
@@ -54,11 +53,10 @@ p {
   padding: 15px 30px;
   line-height: 27px;
 }
-.contact-btn,
-.about-btn:hover {
+.main-btn:hover {
   color: white;
 }
-.btn-outline-primary {
+.secondary-btn {
   font-size: 16px;
   color: var(--primary-color);
   border-radius: 4px;
@@ -70,18 +68,29 @@ p {
 .project-description {
   padding: 120px 60px;
 }
-.about-section {
+.content-section {
   padding: 120px 60px;
 }
-.about-section h1 {
+.content-section h1 {
   font-size: 64px;
 }
-.about-section h2 {
+.content-section h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
 }
-.about-section-content {
+.content {
   margin: 35px;
+}
+.content h1 {
+  font-size: 60px;
+}
+.content h3 {
+  font-family: var(--default-font-family);
+  font-size: 24px;
+  font-weight: 700px;
+}
+.content img {
+  border-radius: 20px;
 }
 .img-ariola {
   width: 455px;
@@ -90,10 +99,10 @@ p {
 }
 @media (max-width: 900px) {
   h1 {
-    font-size: 50px;
+    font-size: 45px;
   }
   h2 {
-    font-size: 45px;
+    font-size: 40px;
     margin-top: 30px;
   }
   .hero {
@@ -103,7 +112,7 @@ p {
     text-align: center;
     padding: 0;
   }
-  .about-section {
+  .content-section {
     text-align: center;
     padding: 0;
   }
