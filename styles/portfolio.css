@@ -44,7 +44,8 @@ p {
   font-size: 36px;
   opacity: 100%;
 }
-.contact-btn {
+.contact-btn,
+.about-btn {
   font-family: var(--default-font-family);
   font-size: 18px;
   background-color: var(--primary-color);
@@ -53,7 +54,8 @@ p {
   padding: 15px 30px;
   line-height: 27px;
 }
-.contact-btn:hover {
+.contact-btn,
+.about-btn:hover {
   color: white;
 }
 .btn-outline-primary {
@@ -67,6 +69,24 @@ p {
 }
 .project-description {
   padding: 120px 60px;
+}
+.about-section {
+  padding: 120px 60px;
+}
+.about-section h1 {
+  font-size: 64px;
+}
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+.about-section-content {
+  margin: 35px;
+}
+.img-ariola {
+  width: 455px;
+  height: 492px;
+  border-radius: 20px;
 }
 @media (max-width: 900px) {
   h1 {
@@ -82,5 +102,13 @@ p {
   .project-description {
     text-align: center;
     padding: 0;
+  }
+  .about-section {
+    text-align: center;
+    padding: 0;
+  }
+  .img-ariola {
+    width: 355px;
+    height: 448px;
   }
 }
