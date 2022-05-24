@@ -97,6 +97,19 @@ p {
   height: 492px;
   border-radius: 20px;
 }
+.navbar-brand {
+  font-size: 30px;
+  color: var(--primary-color) !important;
+}
+.nav-item {
+  color: black;
+  opacity: 70%;
+  padding: 0 15px;
+  line-height: 15px;
+}
+.active {
+  color: var(--primary-color) !important;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 45px;
