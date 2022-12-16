@@ -94,7 +94,9 @@ p {
 }
 .img-ariola {
   height: 492px;
-  border-radius: 20px;
+  border-radius: 10px 100px / 120px;
+  margin: 14px 61px;
+  opacity: 0.9;
 }
 .navbar-brand {
   font-size: 30px;
