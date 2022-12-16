@@ -66,7 +66,7 @@ p {
   font-family: var(--primary-color);
 }
 .project-description {
-  padding: 120px 60px;
+  padding: 28px 52px;
 }
 .content-section {
   padding: 60px 20px;
@@ -93,7 +93,6 @@ p {
   border-radius: 20px;
 }
 .img-ariola {
-  width: 455px;
   height: 492px;
   border-radius: 20px;
 }
@@ -165,7 +164,6 @@ footer h3 {
     font-size: 45px;
   }
   .img-ariola {
-    width: 355px;
-    height: 448px;
+    height: 397px;
   }
 }
