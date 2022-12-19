@@ -78,13 +78,6 @@ p {
   font-size: 18px;
   font-family: var(--default-font-family);
 }
-.content a {
-  color: black;
-  text-decoration: none;
-}
-.content a:hover {
-  color: var(--primary-color);
-}
 .content {
   margin: 35px;
 }
@@ -98,6 +91,13 @@ p {
 }
 .content img {
   border-radius: 20px;
+}
+.content a {
+  color: black;
+  text-decoration: none;
+}
+.content a:hover {
+  color: var(--primary-color);
 }
 .img-ariola {
   height: 492px;
@@ -150,6 +150,9 @@ footer .contact-box {
 footer h3 {
   font-size: 48px;
 }
+#preview-btn {
+  color: white;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 45px;
@@ -157,6 +160,9 @@ footer h3 {
   }
   h2 {
     font-size: 40px;
+  }
+  p {
+    text-align: left;
   }
   .project-description {
     text-align: center;
