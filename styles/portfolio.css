@@ -78,6 +78,13 @@ p {
   font-size: 18px;
   font-family: var(--default-font-family);
 }
+.content a {
+  color: black;
+  text-decoration: none;
+}
+.content a:hover {
+  color: var(--primary-color);
+}
 .content {
   margin: 35px;
 }
