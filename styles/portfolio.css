@@ -68,6 +68,16 @@ p {
 .project-description {
   padding: 28px 52px;
 }
+.languages {
+  color: var(--primary-color);
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 18px;
+  letter-spacing: 1px;
+}
+.language {
+  margin: 0px 10px;
+}
 .content-section {
   padding: 60px 20px;
 }
