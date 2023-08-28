@@ -1,8 +1,8 @@
 :root {
-  --primary-color: #357ed9;
-  --secondary-color: #b2c4f5;
-  --heading-font-family: "Playfair Display", serif;
-  --default-font-family: "Poppins", sans-serif;
+    --primary-color: #357ed9;
+    --secondary-color: #b2c4f5;
+    --heading-font-family: "Playfair Display", serif;
+    --default-font-family: "Poppins", sans-serif;
 }
 h1,
 h2,
@@ -10,185 +10,188 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--heading-font-family);
-  font-weight: bold;
+    font-family: var(--heading-font-family);
+    font-weight: bold;
 }
 h1 {
-  font-size: 80px;
+    font-size: 80px;
 }
 h2 {
-  font-size: 64px;
+    font-size: 64px;
 }
 p {
-  font-family: var(--default-font-family);
-  font-weight: 400px;
-  font-size: 16px;
-  line-height: 30px;
-  opacity: 70%;
+    font-family: var(--default-font-family);
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 30px;
+    opacity: 70%;
+}
+.row {
+    margin-top: 110px;
 }
 .hero {
-  text-align: center;
-  background-color: var(--secondary-color);
-  padding: 100px 30px;
+    text-align: center;
+    background-color: var(--secondary-color);
+    padding: 100px 30px;
 }
 .hero h2 {
-  font-family: var(--default-font-family);
-  font-weight: 400px;
-  opacity: 0.9;
-  font-size: 24px;
-  line-height: 1.5;
+    font-family: var(--default-font-family);
+    font-weight: 400px;
+    opacity: 0.9;
+    font-size: 24px;
+    line-height: 1.5;
 }
 .hero p {
-  font-family: var(--default-font-family);
-  font-weight: bold;
-  font-size: 36px;
-  opacity: 100%;
+    font-family: var(--default-font-family);
+    font-weight: bold;
+    font-size: 36px;
+    opacity: 100%;
 }
 .main-btn {
-  font-family: var(--default-font-family);
-  font-size: 18px;
-  background-color: var(--primary-color);
-  color: white;
-  border-radius: 4px;
-  padding: 15px 30px;
-  line-height: 27px;
+    font-family: var(--default-font-family);
+    font-size: 18px;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 4px;
+    padding: 15px 30px;
+    line-height: 27px;
 }
 .main-btn:hover {
-  color: white;
+    color: white;
 }
 .secondary-btn {
-  font-size: 16px;
-  color: var(--primary-color);
-  border-radius: 4px;
-  padding: 15px 30px;
-  line-height: 24px;
-  font-weight: 500px;
-  font-family: var(--primary-color);
+    font-size: 16px;
+    color: var(--primary-color);
+    border-radius: 4px;
+    padding: 15px 30px;
+    line-height: 24px;
+    font-weight: 500px;
+    font-family: var(--primary-color);
 }
 .project-description {
-  padding: 28px 52px;
+    padding: 0px 52px;
 }
 .languages {
-  color: var(--primary-color);
-  font-size: 18px;
-  font-weight: 700;
-  margin-bottom: 18px;
-  letter-spacing: 1px;
+    color: var(--primary-color);
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 18px;
+    letter-spacing: 1px;
 }
 .language {
-  margin: 0px 10px;
+    margin: 0px 10px;
 }
 .content-section {
-  padding: 60px 20px;
+    padding: 60px 20px;
 }
 .content-section h1 {
-  font-size: 64px;
+    font-size: 64px;
 }
 .content-section h2 {
-  font-size: 18px;
-  font-family: var(--default-font-family);
+    font-size: 18px;
+    font-family: var(--default-font-family);
 }
 .content {
-  margin: 35px;
+    margin: 35px;
 }
 .content h1 {
-  font-size: 60px;
+    font-size: 60px;
 }
 .content h3 {
-  font-family: var(--default-font-family);
-  font-size: 24px;
-  font-weight: 700px;
+    font-family: var(--default-font-family);
+    font-size: 24px;
+    font-weight: 700px;
 }
 .content img {
-  border-radius: 20px;
+    border-radius: 20px;
 }
 .content a {
-  color: black;
-  text-decoration: none;
+    color: black;
+    text-decoration: none;
 }
 .content a:hover {
-  color: var(--primary-color);
+    color: var(--primary-color);
 }
 .img-ariola {
-  height: 492px;
-  border-radius: 10px 100px / 120px;
-  margin: 14px 61px;
-  opacity: 0.9;
+    height: 492px;
+    border-radius: 10px 100px / 120px;
+    margin: 14px 61px;
+    opacity: 0.9;
 }
 .navbar-brand {
-  font-size: 30px;
-  color: var(--primary-color) !important;
+    font-size: 30px;
+    color: var(--primary-color) !important;
 }
 .nav-item {
-  color: black;
-  opacity: 70%;
-  padding: 0 15px;
-  line-height: 15px;
+    color: black;
+    opacity: 70%;
+    padding: 0 15px;
+    line-height: 15px;
 }
 .active {
-  color: var(--primary-color) !important;
+    color: var(--primary-color) !important;
 }
 footer {
-  margin: 60px 0;
+    margin: 60px 0;
 }
 footer .email-link {
-  text-decoration: none;
-  color: black;
-  font-size: 24px;
-  font-family: var(--default-font-family);
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    font-family: var(--default-font-family);
 }
 footer .email-link:hover {
-  color: var(--primary-color);
+    color: var(--primary-color);
 }
 footer .social-links a {
-  color: var(--primary-color);
-  background-color: var(--secondary-color);
-  font-size: 18px;
-  margin: 0 20px;
-  padding: 10px 14px;
-  border-radius: 50%;
-  transition: all 100ms ease-in-out;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    font-size: 18px;
+    margin: 0 20px;
+    padding: 10px 14px;
+    border-radius: 50%;
+    transition: all 100ms ease-in-out;
 }
 footer .social-links a:hover {
-  color: white;
-  background-color: var(--primary-color);
+    color: white;
+    background-color: var(--primary-color);
 }
 footer .contact-box {
-  padding: 30px 120px;
-  background-color: var(--secondary-color);
+    padding: 30px 120px;
+    background-color: var(--secondary-color);
 }
 footer h3 {
-  font-size: 48px;
+    font-size: 48px;
 }
 #preview-btn {
-  color: white;
+    color: white;
 }
 @media (max-width: 900px) {
-  h1 {
-    font-size: 45px;
-    margin-top: 30px;
-  }
-  h2 {
-    font-size: 40px;
-  }
-  p {
-    text-align: left;
-  }
-  .project-description {
-    text-align: center;
-    padding: 0;
-  }
-  .content-section {
-    padding: 0;
-  }
-  .content {
-    text-align: center;
-    padding: 0;
-  }
-  .content h1 {
-    font-size: 45px;
-  }
-  .img-ariola {
-    height: 397px;
-  }
+    h1 {
+        font-size: 45px;
+        margin-top: 30px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+    p {
+        text-align: left;
+    }
+    .project-description {
+        text-align: center;
+        padding: 0;
+    }
+    .content-section {
+        padding: 0;
+    }
+    .content {
+        text-align: center;
+        padding: 0;
+    }
+    .content h1 {
+        font-size: 45px;
+    }
+    .img-ariola {
+        height: 397px;
+    }
 }
